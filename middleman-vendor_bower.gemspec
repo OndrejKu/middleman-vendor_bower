@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email       = ["mariano.cavallo@gmail.com"]
   s.homepage    = "https://github.com/mcavallo/middleman-vendor_bower"
   s.summary     = %q{Adds the bower directory to the sprockets path so that you can require bower components.}
-  s.description = %q{Adds the bower directory to the sprockets path so that you can require bower components.}
+  s.description = %q{Adds the bower directory to the sprockets path so that you can require bower components. Relies on the .bowerrc on the root of the project to locate the right directory.}
   s.license     = "MIT"
 
   s.rubyforge_project     = "middleman-vendor_bower"
@@ -18,5 +18,5 @@ Gem::Specification.new do |s|
   s.require_paths         = ["lib"]
   s.required_ruby_version = '>= 1.9.3'
 
-  s.add_dependency("middleman-core", ["~> 3.3.12"])
+  s.add_dependency("middleman-core", ["~> 3.3"])
 end
