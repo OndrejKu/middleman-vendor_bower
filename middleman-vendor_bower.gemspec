@@ -18,5 +18,5 @@ Gem::Specification.new do |s|
   s.require_paths         = ["lib"]
   s.required_ruby_version = '>= 1.9.3'
 
-  s.add_dependency("middleman-core", ["~> 3.3"])
+  s.add_dependency("middleman-core", ["~> 4.1"])
 end
